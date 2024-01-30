@@ -11,9 +11,18 @@
 
     <!-- css file link -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--swipper-->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
 </head>
 
 <body>
+
+    <!--header section navbar-->
 
     <header>
 
@@ -37,11 +46,74 @@
 
     </header>
 
+    <!--header section navbar-->
+
+    <!--search bar-->
+
     <form action="" id="search-form">
         <input type="search" name="" id="search-box" placeholder="search here...">
         <label for="search-box" class="fas fa-search"></label>   
         <i class="fas fa-times" id="close"></i>
     </form>
+
+    <!--search bar-->
+
+
+    <!--home section-->
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slide">
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>spicy noodles</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repellendus aut nisi.</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="image/1/1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Fried Chicken</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repellendus aut nisi.</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="image/1/1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>spicy noodles</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repellendus aut nisi.</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="image/1/1.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!--home section-->
+
+    <!--swipper-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!-- js file link -->
     <script src="js/script.js"></script>
